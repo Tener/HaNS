@@ -39,7 +39,7 @@ import Network.TCP.Type.Timer
 import Network.TCP.Type.Datagram
 import Network.TCP.Type.Socket
 import Network.TCP.Aux.Param
-import Foreign
+import Foreign hiding (unsafePerformIO)
 import Data.Map as Map
 import Data.List as List
 import Data.Maybe
